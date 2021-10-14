@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Grid</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/09eac25b5a.js" crossorigin="anonymous"></script>
+
+	<style>
+	.container{
+		    height: 600px;
+			display: grid;
+			grid-template-columns: repeat(12, 1fr);
+			grid-template-rows: 50px auto 50px 50px;
+			
+		}
+	
+
+		.header{
+			background-color: green;
+			
+		    padding: 5px;
+			grid-column: 1/-1;
+
+		}
+
+		.header h2{
+			position: relative;
+			left: 100px;
+			margin: 10px;
+		}
+
+		.menu{
+			background-color: red;
+			text-align: center;
+			padding: 5px;
+			grid-column: 1/2;
+			grid-row: 2/3;
+		}
+		.menu2{
+			background-color: red;
+			text-align: center;
+			padding: 5px;
+			grid-column: 12/-1;
+			grid-row: 2/3;
+		}
+		.content{
+			background-color: #dae8de;
+			
+			padding: 5px;
+			grid-column: 2/12;
+
+		}
+		.footer{
+			background-color: #03fc0b;
+			text-align: center;
+			padding: 5px;
+			grid-column: 1/-1;
+					}
+		.footer1{
+			background-color: #eb4034;
+			text-align: center;
+			padding: 5px;
+			grid-column: 1/-1;
+			height: 300px;
+
+		}
+
+		.paragraph{
+			font-family: 'Teko', sans-serif;
+			text-align: justify;
+			font-size: 2rem;
+		}
+		.header h2{
+			font-family: 'Teko', sans-serif;
+		}
+		.pic{
+			height: 300px;
+			width: 300px;
+			position: absolute;
+			right: 200px;
+		}
+		.pic2{
+			height: 300px;
+			width: 300px;
+			position: relative;
+			left: 200px;
+			border: solid;
+		}
+
+		.fab{
+			color: red;
+			height: 100px;
+			width: 100px;
+		}
+
+		
+
+
+
+
+	</style>
+
+	
+</head>
+<body>
+	<div class="container">
+		
+	<div class="header">
+		Hello
+
+
+
+	</div>
+
+	<div class="menu">
+		Menu
+	</div>
+
+	<div class="menu2">Menu 2</div>
+	
+	<div class="content">
+		
+		
+		<p class="paragraph">Im emigrated to Australia from South Korea with her family at the age of nine. She won the fifth season of The X Factor Australia and subsequently received a recording contract with Sony Music Australia. In 2020 she left Sony Music and signed with ABC Music and is managed by Ken Outch at Maven Agency.
+
+After winning The X Factor, Im released her debut and winner's single "Alive", which debuted at number one on the ARIA Singles Chart. This .</p>
+
+<i class="fab fa-facebook"></i>
+
+
+
+	</div>
+
+	<div class="footer">Card
+
+
+
+	</div>
+	<div class="footer1">Footer
+
+
+
+	</div>
+
+	</div>
+	
+
+
+</body>
+</html>
